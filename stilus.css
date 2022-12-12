@@ -87,3 +87,23 @@ aside li{
     padding: 15px 0;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
+.pagination{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 30px;
+}
+.pagination .page{
+    display: inline-block;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.2);
+    text-decoration: none;
+    margin: 0 10px 10px 0;
+}
+.pagination span.page{
+    margin: 0 0 0 20px;
+}
+.pagination span.page, .page:hover{
+    background: #000;
+    color: #fff;
+}
